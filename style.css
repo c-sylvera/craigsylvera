@@ -23,18 +23,10 @@ a, a > code {
 }
 .remark-code-line-highlighted     { background-color: #ffff88; } 
     
-    .white { color: white } 
-  .curious { color: #316a93 } 
-      .maroon { color: #800000 }
-          
-          .inverse {
-            background-color: #316a93;
-              color: #ffffff;
-              text-shadow: 0 0 20px #333;
-          }
-        .inverse h1, .inverse h2, .inverse h3 {
-          color: #f3f3f3;
-        }
+.white { color: white } 
+.curious { color: #316a93 } 
+.maroon { color: #800000 }
+
         /* Two-column layout */
           .left-column {
             color: #000000;
@@ -68,17 +60,7 @@ a, a > code {
           border-left: solid 5px lightgray;
           padding-left: 1em;
         }
-        .remark-slide table {
-          margin: auto;
-          border-top: 1px solid #666;
-          border-bottom: 1px solid #666;
-          font-family: serif;
-          font-size: 18px;
-        }
-        .remark-slide table thead th { border-bottom: 1px solid #ddd; }
-          th, td { padding: 1px; }
-          .remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee }
-              
+
               @page { margin: 0; }
             @media print {
               .remark-slide-scaler {
@@ -90,18 +72,13 @@ a, a > code {
               }
             } 
             
-            
-            .remark-slide h3 {
+            h1, h2, h3 {
               color: #316a93; 
                 font-size: 45px;
             }   
             
             
-            .remark-slide-content {
-              font-size: 24px; 
-              font-family: 'Cormorant Garamond', serif;
-              padding: 1em 4em 1em 4em;
-            } 
+
             
             .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
             
@@ -118,11 +95,7 @@ iframe {display: block;
         height: 400px;
         margin: 0 auto;
             }  
-            
-.remark-slide thead, .remark-slide tr:nth-child(2n) {
-        background-color: white;
-    } 
-    
+
 .split-main1>.row:first-of-type {
   height: 40%; width: 100%; position: absolute; top: 10; left: 5;
 }
@@ -133,21 +106,3 @@ iframe {display: block;
   height: 5%; width: 100%; position: absolute; bottom: 0; left: 0;
 } 
 
-.remark-slide-number {
-  font-size: 14pt; 
-  font-family: sans-erif;
-  margin-bottom: -12px;
-  margin-right: 10px;
-  color: #316a93; /* white */
-  opacity: 0; /* default: 0.5 */
-}
-            
-.baseEventStudy img {
-  width: 120%;
-  height: 60%;
-} 
-
-.industryTotals img {
-  width: 140%;
-  height: 60%;
-}
