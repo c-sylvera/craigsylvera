@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,400&family=Libre+Franklin:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Ubuntu&display=swap');
+/*Cormorant Garamond, Libre Franklin, Abel, Ubuntu*/
+  
+  
+  .small { font-size: 80% } 
+.smaller{ font-size: 70%}
+.large { font-size: 130% } 
+.important{ font-size: 110% }
+.tiny { font-size: 60% }
+.huge { font-size: 200% } 
+
+a, a > code {
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+} 
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+  padding-right: 4em;
+  font-size: 70%;
+}
+.remark-code-line-highlighted     { background-color: #ffff88; } 
+    
+    .white { color: white } 
+  .curious { color: #316a93 } 
+      .maroon { color: #800000 }
+          
+          .inverse {
+            background-color: #316a93;
+              color: #ffffff;
+              text-shadow: 0 0 20px #333;
+          }
+        .inverse h1, .inverse h2, .inverse h3 {
+          color: #f3f3f3;
+        }
+        /* Two-column layout */
+          .left-column {
+            color: #000000;
+              width: 48%;
+            float: left;
+            padding-bottom: 10em;
+          }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000000;
+        }
+        .right-column {
+          width: 48%;
+          float: right;
+          padding-bottom: 15em;
+        }
+        .pull-left {
+          float: left;
+          width: 70%;
+        }
+        .pull-right {
+          float: right;
+          width: 28%;
+        }
+        .pull-right ~ * {
+          clear: both;
+        }
+        img, video, iframe {
+          max-width: 100%;
+        }
+        blockquote {
+          border-left: solid 5px lightgray;
+          padding-left: 1em;
+        }
+        .remark-slide table {
+          margin: auto;
+          border-top: 1px solid #666;
+          border-bottom: 1px solid #666;
+          font-family: serif;
+          font-size: 18px;
+        }
+        .remark-slide table thead th { border-bottom: 1px solid #ddd; }
+          th, td { padding: 1px; }
+          .remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee }
+              
+              @page { margin: 0; }
+            @media print {
+              .remark-slide-scaler {
+                width: 100% !important;
+                height: 100% !important;
+                transform: scale(1) !important;
+                top: 0 !important;
+                left: 0 !important;
+              }
+            } 
+            
+            
+            .remark-slide h3 {
+              color: #316a93; 
+                font-size: 45px;
+            }   
+            
+            
+            .remark-slide-content {
+              font-size: 24px; 
+              font-family: 'Cormorant Garamond', serif;
+              padding: 1em 4em 1em 4em;
+            } 
+            
+            .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+            
+            h1, h2, h3 {
+              font-family: 'Abel', sans-serif;
+              font-weight: normal;
+            }  
+            
+            
+iframe {display: block; 
+        border-style:none;
+        text-align: center;
+        width: 800px;
+        height: 400px;
+        margin: 0 auto;
+            }  
+            
+.remark-slide thead, .remark-slide tr:nth-child(2n) {
+        background-color: white;
+    } 
+    
+.split-main1>.row:first-of-type {
+  height: 40%; width: 100%; position: absolute; top: 10; left: 5;
+}
+.split-main1>.row:nth-of-type(2) {
+  height: 55%; width: 100%; position: absolute; left: 5; bottom: 5%;
+}
+.split-main1>.row:nth-of-type(3) {
+  height: 5%; width: 100%; position: absolute; bottom: 0; left: 0;
+} 
+
+.remark-slide-number {
+  font-size: 14pt; 
+  font-family: sans-erif;
+  margin-bottom: -12px;
+  margin-right: 10px;
+  color: #316a93; /* white */
+  opacity: 0; /* default: 0.5 */
+}
+            
+.baseEventStudy img {
+  width: 120%;
+  height: 60%;
+} 
+
+.industryTotals img {
+  width: 140%;
+  height: 60%;
+}
